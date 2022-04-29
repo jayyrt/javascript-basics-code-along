@@ -5,7 +5,8 @@
 // After the first variable, make a variable named farewell with a data type of string that says 'Goodbye' (with single quotes)
 
 // Code here
-
+let greeting = "Hi";
+let farewell = 'Goodbye';
 
 
 //////////////////PROBLEM 2////////////////////
@@ -15,7 +16,10 @@
 // Concatenate hello and userName together and store the result in a variable called salutation
 
 //Code here
+let hello = "Hello";
+let userName = "Kenia";
 
+const salutation = hello + userName;
 
 
 //////////////////PROBLEM 3////////////////////
@@ -24,7 +28,7 @@
 
 //Code here
 
-
+let seven = 7;
 
 //////////////////PROBLEM 4////////////////////
 
@@ -33,7 +37,7 @@
 
 //Code here
 
-
+let money = 3000000;
 
 //////////////////PROBLEM 5////////////////////
 
@@ -41,12 +45,12 @@
 
 //Code here
 
-
+let awesome = true;
 
 //////////////////PROBLEM 6////////////////////
 
 // Do not edit the code below.
-let myCar = "Jeep";
+// let myCar = "Jeep";
 // Do not edit the code above.
 
 
@@ -55,7 +59,7 @@ let myCar = "Jeep";
 
 //Code here
 
-
+let myCar = null;
 
 //////////////////PROBLEM 7////////////////////
 
@@ -64,7 +68,12 @@ let myCar = "Jeep";
 
 //Code here
 
-
+let users = [
+  { name: 'Kenia', age: 28 },
+  { name: 'Adrian', age: 5 },
+  { name: 'Breydi', age: 28 },
+  { name: 'Luna', age: 3 }
+];
 
 //////////////////PROBLEM 8////////////////////
 
@@ -75,7 +84,17 @@ let myCar = "Jeep";
 
 //Code here
 
-
+let family = {
+  kenia: {
+    hobbies: {}
+  },
+  breydi: {
+    hobbies: {}
+  },
+  adrian: {
+    hobbies: {}
+  }
+};
 
 //////////////////PROBLEM 9////////////////////
 
@@ -84,7 +103,7 @@ let myCar = "Jeep";
 
 //Code here
 
-
+let gameScores = [[ 1, 2 ], [ 3, 4 ], [ 5, 6 ]]
 
 //////////////////PROBLEM 10////////////////////
 
@@ -93,7 +112,11 @@ let myCar = "Jeep";
 
 //Code here
 
-
+let people = [
+  { name: 'Kenia', gender: 'Female', height: 5 },
+  { name: 'Aksel', gender: 'Male', height: 2 },
+  { name: 'Julio', gender: 'Male', height: 6 }
+]
 
 //////////////////PROBLEM 11////////////////////
 
@@ -102,7 +125,11 @@ let myCar = "Jeep";
 
 //Code here
 
-
+let cowboy = {
+  name: 'Vaquero',
+  state: 'Sinaloa',
+  favoriteCountrySong: 'Soy el Raton'
+}
 
 //////////////////PROBLEM 12////////////////////
 
