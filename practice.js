@@ -50,7 +50,7 @@ let awesome = true;
 //////////////////PROBLEM 6////////////////////
 
 // Do not edit the code below.
-// let myCar = "Jeep";
+let myCar = "Jeep";
 // Do not edit the code above.
 
 
@@ -59,7 +59,7 @@ let awesome = true;
 
 //Code here
 
-let myCar = null;
+myCar = null;
 
 //////////////////PROBLEM 7////////////////////
 
@@ -159,17 +159,15 @@ function launch() {
 
 //Code here
 
-
+let dataTypes = [42, 'meaning', true, [12, 17, 22, 4, 32], spaceship, launch]
 
 //////////////////PROBLEM 13////////////////////
 
 // Edit the function called "sum" so that when it is invoked, it returns the sum of its parameters num1 and num2
 
 function sum(num1, num2){
-  return // Code here
+  return num1 + num2// Code here
 };
-  
-
   
 //////////////////PROBLEM 14////////////////////
   
@@ -177,11 +175,13 @@ function sum(num1, num2){
 
 // Code here
 
+let number1 = 7;
+let number2 = 12;
 
 // Next, edit the function called "multiply" so that when it is invoked, it returns the result of multiplying number1 and number2
 
 function multiply() {
-  return // Code here
+  return number1 * number2 // Code here
 };
 
 
@@ -197,7 +197,7 @@ let food = 'pizza';
 // In your solution code, use template strings (not concatenation) and use the food variable provided
 
 function favFood(){
-  return // Code here
+  return 'My favorite food is ' + food // Code here
 };
 
 
@@ -213,8 +213,8 @@ let theBoss;
 // Edit the function assignName so that when it is invoked with the variable theName passed in as an argument,
 // the function assigns the value of theName to theBoss variable
 
-function assignName(name){
-  // Code here
+function assignName(){
+  return theBoss = theName// Code here
 };
 
 
@@ -234,7 +234,7 @@ let user = {
 // edit the function getName so that it accesses the name property of the user object and returns its value
 
 function getName(userObj){
-  return // Code here
+  return user.name// Code here
 };
 
 
