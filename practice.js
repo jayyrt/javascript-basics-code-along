@@ -256,10 +256,8 @@ let calendar = {
 // Make sure you are accessing it from the weekDays array of the calendar object
 
 function getWeekDay(calendar){
-  return // Code here
+  return calendar.weekDays[2] // Code here
 }
-
-
 
 //////////////////PROBLEM 19////////////////////
 
@@ -267,6 +265,9 @@ function getWeekDay(calendar){
 
 // Code here
 
+function fn(myParam){
+  return myParam
+}
 
 
 //////////////////PROBLEM 20////////////////////
@@ -280,25 +281,26 @@ let lastName = "Jones";
 // Create a function called createName that takes in no parameters and returns the result of concatenating firstName and lastName (provided)
 // The returned value should include a space between the first and last names and should use concatenation (not template strings)
 
-// Code here
-
-
+function createName(){
+  return firstName + ' ' + lastName
+} // Code here
 
 //////////////////PROBLEM 21////////////////////
 
 // Create a function called showMeSeven that returns the number 7
 
-// Code here
-
-
+function showMeSeven(){
+  return 7
+} // Code here
 
 //////////////////PROBLEM 22////////////////////
 
 // Create a function called multiplier that takes two parameters (numbers) and returns the product of the two parameters
 
 // Code here
-
-
+function multiplier(num1, num2){
+  return num1 * num2
+} 
 
 //////////////////PROBLEM 23////////////////////
 
@@ -307,8 +309,11 @@ let lastName = "Jones";
 // The returned value should include a space between the greeting and name parameters
 
 // Code here
+function sayHello(){
+  const greeting = "Testing Here";
 
-
+  return greeting
+}
 
 //////////////////PROBLEM 24////////////////////
 
