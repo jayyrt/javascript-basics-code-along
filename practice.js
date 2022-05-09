@@ -438,6 +438,13 @@ age = "TBD";
 
 function findCorrectTransportation(){
   // Code here
+  if (age >= 3 && age <= 7) {
+    return "tricycle"
+  } else if (age >= 8 && age <= 15) {
+    return "bicycle"
+  } else {
+    return "car";
+  }
 };
 
 
