@@ -324,6 +324,14 @@ function sayHello(){
 
 // Code here
 
+function makeExercise(){
+  exercise = { 
+    exerciseName : 'pushups',
+    duration : 300
+  }
+
+  return exercise
+}
 
 
 //////////////////PROBLEM 25////////////////////
@@ -338,7 +346,12 @@ let age = "TBD";
 // The variable age will be changed during testing
 
 function isOldEnough(){
-  // Code here
+  //  Code here
+ if (age >= 21) {
+   return "old enough";
+  } else {
+    return "not yet";
+  }
 };
 
 
@@ -356,6 +369,11 @@ let workEthic = "TBD";
 
 function successPredictor(){
   // Code here
+  if (workEthic === "great") {
+    return "success at DevMountain";
+  } else {
+    return "failure at DevMountain";
+  }
 };
 
 
