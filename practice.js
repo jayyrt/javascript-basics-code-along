@@ -391,9 +391,12 @@ let cookieType = "TBD";
 
 function eatOrTrash(){
   // Code here
+  if (cookieType === "raisin"){
+    return "throw in trash";
+  } else {
+    return "eat";
+  }
 };
-
-
 
 //////////////////PROBLEM 28////////////////////
 
@@ -409,6 +412,11 @@ let yourTeamScore = "TBD";
 
 function finalScore(){
   // Code here
+  if (myTeamScore > yourTeamScore){
+    return "we are the champions";
+  } else {
+    return ":(";
+  }
 };
 
 
