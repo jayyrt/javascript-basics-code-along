@@ -466,6 +466,11 @@ let temp = "TBD";
 
 function doIGetIceCream(){
   // Code here
+  if (temp === "hot" && cash === true) {
+    return "Get Ice Cream!"
+  } else {
+    return "Save up for another day."
+  }
 };
 
 
@@ -486,6 +491,9 @@ let work = "TBD";
 
 function doIHaveFreeTime(){
   // Code here
+  if (chores == false || work == false) {
+    return "free time!"
+  }
 };
 
 
@@ -508,6 +516,9 @@ let brakes = "TBD";
 
 function setCrash(){
   // Code here
+  if (currentSpeed == "fast" && brakes == false){
+    return crash = true;
+  }
 };
 
 
@@ -530,7 +541,16 @@ user = {
 // The arguments passed into makePurchase will always be numbers and will be changed during testing
 
 // Code here
-
+user.total = 36;
+let priceOfItem = 0;
+function makePurchase(priceOfItem){
+  if (priceOfItem <= user.total){
+    let newTotal = user.total - priceOfItem;
+    return newTotal;
+  } else {
+    return "not enough funds"
+  }
+};
 
 
 //////////////////PROBLEM 34////////////////////
