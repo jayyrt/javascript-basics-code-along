@@ -571,7 +571,7 @@ function sleep(){
 // Do not edit the code above.
 
 
-// Write a function called decisionMaker that takes two parameters hungry and tired and and reacts according to the following criteria:
+// Write a function called decisionMaker that takes two parameters hungry and tired and reacts according to the following criteria:
   // if hungry is true and tired is false, invoke the eat function (provided)
   // if hungry is false and tired is true, invoke the sleep function (provided)
   // otherwise, return the string "undecided"
@@ -581,3 +581,12 @@ function sleep(){
 // The arguments passed into decisionMaker will always be true or false and will be changed during testing
 
 // Code here
+function decisionMaker(hungry, tired){
+  if (hungry === true && tired === false){
+    return eat()
+  } else if (hungry === false && tired === true){
+    return sleep()
+  } else {
+    return "undecided"
+  }
+}
